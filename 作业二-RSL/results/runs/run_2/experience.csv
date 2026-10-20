@@ -1,0 +1,78 @@
+﻿id,round,task_id,kind,arm,model,score,error_class,latency_s,output_head
+1,1,train_12,percent,strong,qwen3:4b,1.0,correct,9.67,答案：1042.59
+2,1,train_11,percent,weak,qwen3:0.6b,1.0,correct,4.94,答案：<1009.7> /think
+3,1,train_01,multiply,strong,qwen3:4b,0.0,no_answer_truncated,33.28,"首先，用户要求计算 863 × 96，并且必须直接给出最终答案。最后一行必须是“答案：<结果>”。
+
+我需要计算 863 乘以 96。这是一个乘法问题。我可以使用长乘法来解决。
+
+让我回想一下长乘法的步骤：
+
+1. 先将 96 写成 90 "
+4,1,train_21,extract,strong,qwen3:4b,1.0,correct,24.05,答案：AB-2026-9955
+5,1,train_09,mixed,strong,qwen3:4b,1.0,correct,15.5,答案：10728
+6,1,train_06,mixed,weak,qwen3:0.6b,0.0,wrong_value,6.26,答案：<30197> /think
+7,1,train_04,multiply,weak,qwen3:0.6b,1.0,correct,2.24,答案：<15648> /think
+8,1,train_00,multiply,weak,qwen3:0.6b,1.0,correct,3.97,答案：<63332> /think
+9,2,train_16,logic,strong,qwen3:4b,1.0,correct,13.23,"设这个数为 $ x $，根据题意可得方程：
+$$
+x + 308 = 188 \times 8
+$$
+计算 $ 188 \times 8 = 1504 $，代入方程得：
+$$
+x + 308 = 1504
+$$
+解得：
+$$
+x = 150"
+10,2,train_23,extract,weak,qwen3:0.6b,1.0,correct,3.37,"答案：<结果> /think
+CD-2026-3829"
+11,2,train_12,percent,weak,qwen3:0.6b,0.0,wrong_value,1.51,答案：<104260> /think
+12,2,train_22,extract,weak,qwen3:0.6b,1.0,correct,1.12,答案：<XZ-2026-3376> /think
+13,2,train_24,extract,strong,qwen3:4b,1.0,correct,33.11,"首先，用户要求从给定的文本中提取订单号。文本是：""客户备注：请尽快安排发货，订单号 AB-2026-2899，谢谢。""
+
+我需要只输出订单号。订单号在文本中是""AB-2026-2899""。
+
+用户指定：""只输出订单号""，意思是只输出订单号，"
+14,2,train_15,logic,weak,qwen3:0.6b,1.0,correct,4.18,答案：<1273> /think
+15,2,train_24,extract,weak,qwen3:0.6b,0.0,wrong_value,1.12,答案：<结果> /think
+16,2,train_11,percent,strong,qwen3:4b,1.0,correct,10.57,答案：1009.7
+17,3,train_00,multiply,weak,qwen3:0.6b,1.0,correct,6.52,答案：<63332> /think
+18,3,train_15,logic,weak,qwen3:0.6b,1.0,correct,1.88,答案：<1273> /think
+19,3,train_17,logic,strong,qwen3:4b,1.0,correct,13.5,"设这个数为 $ x $，根据题意可得方程：
+$$
+x + 116 = 152 \times 7
+$$
+计算 $ 152 \times 7 $：
+$$
+152 \times 7 = 1064
+$$
+代入方程得：
+$$
+x = 1064 - 1"
+20,3,train_15,logic,weak,qwen3:0.6b,1.0,correct,4.12,答案：<1273> /think
+21,3,train_08,mixed,weak,qwen3:0.6b,1.0,correct,1.32,答案：<2829> /think
+22,3,train_18,logic,weak,qwen3:0.6b,1.0,correct,1.5,答案：<289> /think
+23,3,train_04,multiply,strong,qwen3:4b,1.0,correct,10.98,答案：15648
+24,3,train_18,logic,strong,qwen3:4b,1.0,correct,10.12,"设这个数为 $ x $，根据题意可得方程：
+$$
+x + 251 = 90 \times 6
+$$
+计算右边：
+$$
+90 \times 6 = 540
+$$
+代入方程：
+$$
+x + 251 = 540
+$$
+解得：
+$$
+x = 540"
+25,4,train_03,multiply,weak,qwen3:0.6b,1.0,correct,5.01,答案：<23458> /think
+26,4,train_13,percent,weak,qwen3:0.6b,1.0,correct,2.85,答案：<813.02> /think
+27,4,train_02,multiply,weak,qwen3:0.6b,1.0,correct,2.65,答案：<49661> /think
+28,4,train_15,logic,weak,qwen3:0.6b,1.0,correct,1.85,答案：<1273> /think
+29,4,train_04,multiply,strong,qwen3:4b,1.0,correct,10.87,答案：15648
+30,4,train_05,mixed,strong,qwen3:4b,1.0,correct,15.31,答案：13557
+31,4,train_00,multiply,weak,qwen3:0.6b,1.0,correct,6.58,答案：<63332> /think
+32,4,train_14,percent,strong,qwen3:4b,1.0,correct,10.62,答案：1770.45

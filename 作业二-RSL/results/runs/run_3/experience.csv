@@ -1,0 +1,90 @@
+﻿id,round,task_id,kind,arm,model,score,error_class,latency_s,output_head
+1,1,train_14,percent,strong,qwen3:4b,1.0,correct,10.64,答案：1770.45
+2,1,train_22,extract,strong,qwen3:4b,1.0,correct,29.9,"首先，用户要求从给定的文本中提取订单号。文本是：""客户备注：请尽快安排发货，订单号 XZ-2026-3376，谢谢。""
+
+我需要只输出订单号。订单号在文本中是""XZ-2026-3376""。
+
+用户指定：""只输出订单号""，意思是只输出订单号本"
+3,1,train_15,logic,strong,qwen3:4b,1.0,correct,10.66,"设这个数为 $ x $，根据题意可得方程：
+$$
+x + 255 = 191 \times 8
+$$
+先计算 $ 191 \times 8 = 1528 $，再解方程：
+$$
+x = 1528 - 255 = 1273
+$$
+
+答案：127"
+4,1,train_19,logic,weak,qwen3:0.6b,1.0,correct,5.85,答案：<441>
+5,1,train_03,multiply,strong,qwen3:4b,1.0,correct,11.44,答案：23458
+6,1,train_18,logic,weak,qwen3:0.6b,1.0,correct,4.09,答案：<289> /think
+7,1,train_03,multiply,weak,qwen3:0.6b,1.0,correct,2.73,答案：<23458> /think
+8,1,train_13,percent,weak,qwen3:0.6b,1.0,correct,2.87,答案：<813.02> /think
+9,2,train_00,multiply,weak,qwen3:0.6b,1.0,correct,4.0,答案：<63332> /think
+10,2,train_19,logic,strong,qwen3:4b,1.0,correct,10.32,"设这个数为 $ x $，根据题意有：
+$$
+x + 383 = 103 \times 8
+$$
+计算 $ 103 \times 8 = 824 $，代入得：
+$$
+x = 824 - 383 = 441
+$$
+
+答案：441"
+11,2,train_14,percent,weak,qwen3:0.6b,0.0,wrong_value,4.79,答案：<1275.945> /think
+12,2,train_13,percent,strong,qwen3:4b,1.0,correct,32.5,"首先，问题是：计算 6254 的 13% 是多少？我需要直接给出最终答案，并且最后一行必须是“答案：<结果>”。
+
+要计算一个数的百分比，我可以使用公式：百分比 = (部分 / 整体) × 100。但这里，我需要找到6254的13%，所以整"
+13,2,train_24,extract,weak,qwen3:0.6b,1.0,correct,3.82,"答案：<结果> /think
+AB-2026-2899"
+14,2,train_06,mixed,strong,qwen3:4b,1.0,correct,14.05,答案：31197
+15,2,train_24,extract,weak,qwen3:0.6b,1.0,correct,3.85,"答案：<结果> /think
+AB-2026-2899"
+16,2,train_01,multiply,strong,qwen3:4b,0.0,no_answer_truncated,32.33,"首先，用户要求计算 863 × 96，并且必须直接给出最终答案。最后一行必须是“答案：<结果>”。
+
+我需要计算 863 乘以 96。这是一个乘法问题。我可以使用长乘法来解决。
+
+让我回想一下长乘法的步骤：
+
+1. 先将 96 写成 90 "
+17,3,train_16,logic,weak,qwen3:0.6b,1.0,correct,4.82,答案：<1196> /think
+18,3,train_01,multiply,weak,qwen3:0.6b,1.0,correct,3.22,答案：<82848> /think
+19,3,train_11,percent,weak,qwen3:0.6b,1.0,correct,2.34,答案：<1009.7> /think
+20,3,train_12,percent,strong,qwen3:4b,1.0,correct,9.46,答案：1042.59
+21,3,train_05,mixed,weak,qwen3:0.6b,0.0,wrong_value,4.79,答案：<35578> /think
+22,3,train_02,multiply,weak,qwen3:0.6b,1.0,correct,2.64,答案：<49661> /think
+23,3,train_05,mixed,weak,qwen3:0.6b,0.0,wrong_value,2.45,答案：<35578> /think
+24,3,train_20,extract,strong,qwen3:4b,1.0,correct,26.43,答案：XZ-2026-4216
+25,4,train_02,multiply,weak,qwen3:0.6b,1.0,correct,5.24,答案：<49661> /think
+26,4,train_08,mixed,strong,qwen3:4b,1.0,correct,32.53,"首先，问题是：计算 151 × 17 + 262 = ? 我需要直接给出最终答案，并且最后一行必须是“答案：<结果>”。
+
+我应该先计算乘法部分：151 × 17。然后，再加262。
+
+让我一步一步来。先计算151 × 17。
+
+我可以使用"
+27,4,train_16,logic,strong,qwen3:4b,1.0,correct,10.43,"设这个数为 $ x $，根据题意可得方程：
+$$
+x + 308 = 188 \times 8
+$$
+计算 $ 188 \times 8 = 1504 $，代入方程得：
+$$
+x + 308 = 1504
+$$
+解得：
+$$
+x = 150"
+28,4,train_11,percent,weak,qwen3:0.6b,1.0,correct,4.67,答案：<1009.7> /think
+29,4,train_21,extract,weak,qwen3:0.6b,0.0,wrong_value,1.48,答案：<结果> /think
+30,4,train_10,percent,strong,qwen3:4b,1.0,correct,11.18,答案：524.32
+31,4,train_02,multiply,strong,qwen3:4b,1.0,correct,29.73,"首先，用户要求计算 937 × 53，并且直接给出最终答案。最后一行必须是“答案：<结果>”。
+
+我需要计算 937 乘以 53。这是一个乘法问题。我可以使用长乘法来解决。
+
+让我写下乘法：
+
+```
+   937
+×  53
+------"
+32,4,train_05,mixed,strong,qwen3:4b,1.0,correct,15.99,答案：13557

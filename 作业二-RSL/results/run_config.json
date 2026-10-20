@@ -1,0 +1,30 @@
+{
+ "runs": [
+  1,
+  2,
+  3
+ ],
+ "mock": false,
+ "task_seed": 20261020,
+ "rounds": 4,
+ "samples": 8,
+ "per_kind_train": 5,
+ "per_kind_test": 5,
+ "c": 1.2,
+ "prior_weight": 3.0,
+ "lambda": 0.2,
+ "lat_ref": 8.0,
+ "num_ctx": 4096,
+ "num_predict": 1792,
+ "arms": [
+  {
+   "name": "strong",
+   "model": "qwen3:4b"
+  },
+  {
+   "name": "weak",
+   "model": "qwen3:0.6b"
+  }
+ ],
+ "time": "2026-10-20 16:49:27"
+}

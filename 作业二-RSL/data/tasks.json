@@ -1,0 +1,366 @@
+{
+ "meta": {
+  "task_seed": 20261020,
+  "kinds": [
+   "multiply",
+   "mixed",
+   "percent",
+   "logic",
+   "extract"
+  ]
+ },
+ "train": [
+  {
+   "kind": "multiply",
+   "question": "计算 892 × 71 = ?",
+   "answer": "63332",
+   "split": "train",
+   "id": "train_00"
+  },
+  {
+   "kind": "multiply",
+   "question": "计算 863 × 96 = ?",
+   "answer": "82848",
+   "split": "train",
+   "id": "train_01"
+  },
+  {
+   "kind": "multiply",
+   "question": "计算 937 × 53 = ?",
+   "answer": "49661",
+   "split": "train",
+   "id": "train_02"
+  },
+  {
+   "kind": "multiply",
+   "question": "计算 317 × 74 = ?",
+   "answer": "23458",
+   "split": "train",
+   "id": "train_03"
+  },
+  {
+   "kind": "multiply",
+   "question": "计算 163 × 96 = ?",
+   "answer": "15648",
+   "split": "train",
+   "id": "train_04"
+  },
+  {
+   "kind": "mixed",
+   "question": "计算 537 × 24 + 669 = ?",
+   "answer": "13557",
+   "split": "train",
+   "id": "train_05"
+  },
+  {
+   "kind": "mixed",
+   "question": "计算 327 × 93 + 786 = ?",
+   "answer": "31197",
+   "split": "train",
+   "id": "train_06"
+  },
+  {
+   "kind": "mixed",
+   "question": "计算 640 × 40 + 257 = ?",
+   "answer": "25857",
+   "split": "train",
+   "id": "train_07"
+  },
+  {
+   "kind": "mixed",
+   "question": "计算 151 × 17 + 262 = ?",
+   "answer": "2829",
+   "split": "train",
+   "id": "train_08"
+  },
+  {
+   "kind": "mixed",
+   "question": "计算 216 × 47 + 576 = ?",
+   "answer": "10728",
+   "split": "train",
+   "id": "train_09"
+  },
+  {
+   "kind": "percent",
+   "question": "计算 1808 的 29% 是多少？",
+   "answer": "524.32",
+   "split": "train",
+   "id": "train_10"
+  },
+  {
+   "kind": "percent",
+   "question": "计算 4390 的 23% 是多少？",
+   "answer": "1009.7",
+   "split": "train",
+   "id": "train_11"
+  },
+  {
+   "kind": "percent",
+   "question": "计算 4533 的 23% 是多少？",
+   "answer": "1042.59",
+   "split": "train",
+   "id": "train_12"
+  },
+  {
+   "kind": "percent",
+   "question": "计算 6254 的 13% 是多少？",
+   "answer": "813.02",
+   "split": "train",
+   "id": "train_13"
+  },
+  {
+   "kind": "percent",
+   "question": "计算 6105 的 29% 是多少？",
+   "answer": "1770.45",
+   "split": "train",
+   "id": "train_14"
+  },
+  {
+   "kind": "logic",
+   "question": "一个数加上 255 后，等于 191 的 8 倍。这个数是多少？",
+   "answer": "1273",
+   "split": "train",
+   "id": "train_15"
+  },
+  {
+   "kind": "logic",
+   "question": "一个数加上 308 后，等于 188 的 8 倍。这个数是多少？",
+   "answer": "1196",
+   "split": "train",
+   "id": "train_16"
+  },
+  {
+   "kind": "logic",
+   "question": "一个数加上 116 后，等于 152 的 7 倍。这个数是多少？",
+   "answer": "948",
+   "split": "train",
+   "id": "train_17"
+  },
+  {
+   "kind": "logic",
+   "question": "一个数加上 251 后，等于 90 的 6 倍。这个数是多少？",
+   "answer": "289",
+   "split": "train",
+   "id": "train_18"
+  },
+  {
+   "kind": "logic",
+   "question": "一个数加上 383 后，等于 103 的 8 倍。这个数是多少？",
+   "answer": "441",
+   "split": "train",
+   "id": "train_19"
+  },
+  {
+   "kind": "extract",
+   "question": "从下面这段文本中提取订单号（只输出订单号）：\n\"客户备注：请尽快安排发货，订单号 XZ-2026-4216，谢谢。\"",
+   "answer": "XZ-2026-4216",
+   "split": "train",
+   "id": "train_20"
+  },
+  {
+   "kind": "extract",
+   "question": "从下面这段文本中提取订单号（只输出订单号）：\n\"客户备注：请尽快安排发货，订单号 AB-2026-9955，谢谢。\"",
+   "answer": "AB-2026-9955",
+   "split": "train",
+   "id": "train_21"
+  },
+  {
+   "kind": "extract",
+   "question": "从下面这段文本中提取订单号（只输出订单号）：\n\"客户备注：请尽快安排发货，订单号 XZ-2026-3376，谢谢。\"",
+   "answer": "XZ-2026-3376",
+   "split": "train",
+   "id": "train_22"
+  },
+  {
+   "kind": "extract",
+   "question": "从下面这段文本中提取订单号（只输出订单号）：\n\"客户备注：请尽快安排发货，订单号 CD-2026-3829，谢谢。\"",
+   "answer": "CD-2026-3829",
+   "split": "train",
+   "id": "train_23"
+  },
+  {
+   "kind": "extract",
+   "question": "从下面这段文本中提取订单号（只输出订单号）：\n\"客户备注：请尽快安排发货，订单号 AB-2026-2899，谢谢。\"",
+   "answer": "AB-2026-2899",
+   "split": "train",
+   "id": "train_24"
+  }
+ ],
+ "test": [
+  {
+   "kind": "multiply",
+   "question": "计算 979 × 76 = ?",
+   "answer": "74404",
+   "split": "test",
+   "id": "test_00"
+  },
+  {
+   "kind": "multiply",
+   "question": "计算 183 × 31 = ?",
+   "answer": "5673",
+   "split": "test",
+   "id": "test_01"
+  },
+  {
+   "kind": "multiply",
+   "question": "计算 132 × 54 = ?",
+   "answer": "7128",
+   "split": "test",
+   "id": "test_02"
+  },
+  {
+   "kind": "multiply",
+   "question": "计算 620 × 39 = ?",
+   "answer": "24180",
+   "split": "test",
+   "id": "test_03"
+  },
+  {
+   "kind": "multiply",
+   "question": "计算 167 × 44 = ?",
+   "answer": "7348",
+   "split": "test",
+   "id": "test_04"
+  },
+  {
+   "kind": "mixed",
+   "question": "计算 516 × 48 + 896 = ?",
+   "answer": "25664",
+   "split": "test",
+   "id": "test_05"
+  },
+  {
+   "kind": "mixed",
+   "question": "计算 906 × 39 + 898 = ?",
+   "answer": "36232",
+   "split": "test",
+   "id": "test_06"
+  },
+  {
+   "kind": "mixed",
+   "question": "计算 802 × 69 + 831 = ?",
+   "answer": "56169",
+   "split": "test",
+   "id": "test_07"
+  },
+  {
+   "kind": "mixed",
+   "question": "计算 845 × 24 + 426 = ?",
+   "answer": "20706",
+   "split": "test",
+   "id": "test_08"
+  },
+  {
+   "kind": "mixed",
+   "question": "计算 916 × 39 + 195 = ?",
+   "answer": "35919",
+   "split": "test",
+   "id": "test_09"
+  },
+  {
+   "kind": "percent",
+   "question": "计算 3270 的 7% 是多少？",
+   "answer": "228.9",
+   "split": "test",
+   "id": "test_10"
+  },
+  {
+   "kind": "percent",
+   "question": "计算 1755 的 17% 是多少？",
+   "answer": "298.35",
+   "split": "test",
+   "id": "test_11"
+  },
+  {
+   "kind": "percent",
+   "question": "计算 2555 的 13% 是多少？",
+   "answer": "332.15",
+   "split": "test",
+   "id": "test_12"
+  },
+  {
+   "kind": "percent",
+   "question": "计算 2504 的 23% 是多少？",
+   "answer": "575.92",
+   "split": "test",
+   "id": "test_13"
+  },
+  {
+   "kind": "percent",
+   "question": "计算 4128 的 7% 是多少？",
+   "answer": "288.96",
+   "split": "test",
+   "id": "test_14"
+  },
+  {
+   "kind": "logic",
+   "question": "一个数加上 462 后，等于 96 的 5 倍。这个数是多少？",
+   "answer": "18",
+   "split": "test",
+   "id": "test_15"
+  },
+  {
+   "kind": "logic",
+   "question": "一个数加上 282 后，等于 172 的 5 倍。这个数是多少？",
+   "answer": "578",
+   "split": "test",
+   "id": "test_16"
+  },
+  {
+   "kind": "logic",
+   "question": "一个数加上 474 后，等于 157 的 6 倍。这个数是多少？",
+   "answer": "468",
+   "split": "test",
+   "id": "test_17"
+  },
+  {
+   "kind": "logic",
+   "question": "一个数加上 160 后，等于 163 的 4 倍。这个数是多少？",
+   "answer": "492",
+   "split": "test",
+   "id": "test_18"
+  },
+  {
+   "kind": "logic",
+   "question": "一个数加上 59 后，等于 54 的 9 倍。这个数是多少？",
+   "answer": "427",
+   "split": "test",
+   "id": "test_19"
+  },
+  {
+   "kind": "extract",
+   "question": "从下面这段文本中提取订单号（只输出订单号）：\n\"客户备注：请尽快安排发货，订单号 XZ-2026-3877，谢谢。\"",
+   "answer": "XZ-2026-3877",
+   "split": "test",
+   "id": "test_20"
+  },
+  {
+   "kind": "extract",
+   "question": "从下面这段文本中提取订单号（只输出订单号）：\n\"客户备注：请尽快安排发货，订单号 CD-2026-9559，谢谢。\"",
+   "answer": "CD-2026-9559",
+   "split": "test",
+   "id": "test_21"
+  },
+  {
+   "kind": "extract",
+   "question": "从下面这段文本中提取订单号（只输出订单号）：\n\"客户备注：请尽快安排发货，订单号 CD-2026-3653，谢谢。\"",
+   "answer": "CD-2026-3653",
+   "split": "test",
+   "id": "test_22"
+  },
+  {
+   "kind": "extract",
+   "question": "从下面这段文本中提取订单号（只输出订单号）：\n\"客户备注：请尽快安排发货，订单号 CD-2026-1177，谢谢。\"",
+   "answer": "CD-2026-1177",
+   "split": "test",
+   "id": "test_23"
+  },
+  {
+   "kind": "extract",
+   "question": "从下面这段文本中提取订单号（只输出订单号）：\n\"客户备注：请尽快安排发货，订单号 XZ-2026-6989，谢谢。\"",
+   "answer": "XZ-2026-6989",
+   "split": "test",
+   "id": "test_24"
+  }
+ ]
+}
